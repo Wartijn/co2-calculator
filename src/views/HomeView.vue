@@ -3,7 +3,7 @@ import { onMounted, ref } from 'vue'
 import axios from 'axios'
 import type { Results } from '@/utils/types'
 import ResultView from '@/views/ResultView.vue'
-import { frontPageText } from './constants'
+import { frontPageText } from '../utils/constants'
 
 interface TreeTypes {
   ['string']: string
